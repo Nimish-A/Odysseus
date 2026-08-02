@@ -1,0 +1,11 @@
+# Installers that happen to live in this folder -- never commit these
+# (GitHubDesktopSetup-x64.exe alone is ~308 MB, far over GitHub's file limit)
+*.exe
+*.msi
+
+__pycache__/
+*.pyc
+
+# Local scratch
+*.log
+odyssey_page*.html

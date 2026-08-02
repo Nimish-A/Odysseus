@@ -1,0 +1,6 @@
+selenium>=4.20
+beautifulsoup4>=4.12
+
+# webdriver-manager is intentionally NOT listed. Selenium 4.6+ ships Selenium
+# Manager, which resolves chromedriver by itself; get_driver() already falls
+# back to a bare Service() when webdriver_manager isn't importable.
