@@ -1,0 +1,63 @@
+name: Check Odyssey sessions
+
+on:
+  schedule:
+    # Every 30 minutes. GitHub runs scheduled workflows on a best-effort basis,
+    # so expect drift of 10-30 minutes when the runners are busy.
+    - cron: "*/25 * * * *"
+  workflow_dispatch:
+
+# Never let two checks overlap: they'd both read the same state file and the
+# second push would conflict with the first.
+concurrency:
+  group: odyssey-check
+  cancel-in-progress: false
+
+permissions:
+  contents: write # to commit the updated state file back
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      # ubuntu-latest images ship Google Chrome; fail loudly here rather than
+      # inside Selenium if that ever stops being true.
+      - name: Verify Chrome is present
+        run: google-chrome --version
+
+      - name: Check for new sessions
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+        run: python check_odyssey_tickets_1.py --once
+
+      - name: Persist session state
+        run: |
+          if git diff --quiet -- odyssey_ticket_state.json; then
+            echo "State unchanged, nothing to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add odyssey_ticket_state.json
+          git commit -m "Update session state"
+          # Retry: a concurrent state commit would otherwise lose this run's
+          # memory and cause the same sessions to re-alert next time.
+          for attempt in 1 2 3; do
+            if git pull --rebase --autostash && git push; then
+              exit 0
+            fi
+            echo "Push attempt $attempt failed, retrying..."
+            sleep 5
+          done
+          echo "::error::Could not persist state; sessions may re-alert next run."
+          exit 1
