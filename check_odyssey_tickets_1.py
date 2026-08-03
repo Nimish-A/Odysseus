@@ -99,7 +99,7 @@ except (AttributeError, OSError):
 
 BASE_URL = "https://www.eventcinemas.com.au/cinema/imax-sydney"
 MOVIE_NAME_MATCH = "odyssey"          # case-insensitive substring match on movie name
-SEATS_AVAILABLE_THRESHOLD = 65        # alert when a session has MORE than this many seats free
+SEATS_AVAILABLE_THRESHOLD = 5        # alert when a session has MORE than this many seats free
 SEATS_INCREASE_THRESHOLD = 5          # alert when seats free jump up by at least this much since last check
 CHECK_INTERVAL_SECONDS = 1500         # 25 minutes (clicking through many dates takes a while)
 STATE_FILE = Path(__file__).parent / "odyssey_ticket_state.json"
