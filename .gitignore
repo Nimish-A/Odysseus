@@ -2,7 +2,7 @@
 # (GitHubDesktopSetup-x64.exe alone is ~308 MB, far over GitHub's file limit)
 *.exe
 *.msi
-
+*.env
 __pycache__/
 *.pyc
 
