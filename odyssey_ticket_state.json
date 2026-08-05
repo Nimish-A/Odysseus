@@ -212,14 +212,14 @@
   "15445532": {
     "date": "2026-08-06",
     "time": "9:30 PM",
-    "seats_available": 22,
+    "seats_available": 20,
     "alerted": true,
     "last_seen": "2026-08-05"
   },
   "15521483": {
     "date": "2026-08-07",
     "time": "6:15 AM",
-    "seats_available": 51,
+    "seats_available": 53,
     "alerted": true,
     "last_seen": "2026-08-05"
   },
