@@ -429,7 +429,7 @@
   "15510356": {
     "date": "2026-08-14",
     "time": "2:00 PM",
-    "seats_available": 14,
+    "seats_available": 13,
     "alerted": true,
     "last_seen": "2026-08-12"
   },
@@ -730,7 +730,7 @@
   "15546100": {
     "date": "2026-08-27",
     "time": "1:50 PM",
-    "seats_available": 84,
+    "seats_available": 83,
     "alerted": true,
     "last_seen": "2026-08-12"
   },
@@ -744,7 +744,7 @@
   "15546099": {
     "date": "2026-08-28",
     "time": "1:50 PM",
-    "seats_available": 85,
+    "seats_available": 84,
     "alerted": true,
     "last_seen": "2026-08-12"
   },
@@ -842,7 +842,7 @@
   "15546047": {
     "date": "2026-08-31",
     "time": "5:40 PM",
-    "seats_available": 64,
+    "seats_available": 63,
     "alerted": true,
     "last_seen": "2026-08-12"
   },
@@ -856,7 +856,7 @@
   "15546093": {
     "date": "2026-09-01",
     "time": "10:00 AM",
-    "seats_available": 73,
+    "seats_available": 71,
     "alerted": true,
     "last_seen": "2026-08-12"
   },
@@ -933,7 +933,7 @@
   "15546061": {
     "date": "2026-09-04",
     "time": "10:00 AM",
-    "seats_available": 145,
+    "seats_available": 143,
     "alerted": true,
     "last_seen": "2026-08-12"
   },
@@ -1367,7 +1367,7 @@
   "15558625": {
     "date": "2026-09-17",
     "time": "5:40 PM",
-    "seats_available": 190,
+    "seats_available": 188,
     "alerted": true,
     "last_seen": "2026-08-12"
   }
