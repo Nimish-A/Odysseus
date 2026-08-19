@@ -562,7 +562,7 @@
   "15510352": {
     "date": "2026-08-22",
     "time": "5:40 PM",
-    "seats_available": 7,
+    "seats_available": 6,
     "alerted": true,
     "last_seen": "2026-08-19"
   },
@@ -1087,7 +1087,7 @@
   "15546039": {
     "date": "2026-09-10",
     "time": "10:00 AM",
-    "seats_available": 101,
+    "seats_available": 99,
     "alerted": true,
     "last_seen": "2026-08-19"
   },
@@ -1220,7 +1220,7 @@
   "15546084": {
     "date": "2026-09-16",
     "time": "9:40 AM",
-    "seats_available": 108,
+    "seats_available": 106,
     "alerted": true,
     "last_seen": "2026-08-19"
   },
