@@ -667,7 +667,7 @@
   "15546023": {
     "date": "2026-08-22",
     "time": "10:00 AM",
-    "seats_available": 17,
+    "seats_available": 12,
     "alerted": true,
     "last_seen": "2026-08-21"
   },
@@ -758,7 +758,7 @@
   "15546044": {
     "date": "2026-08-28",
     "time": "9:30 PM",
-    "seats_available": 51,
+    "seats_available": 53,
     "alerted": true,
     "last_seen": "2026-08-21"
   },
