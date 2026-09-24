@@ -1,18 +1,4 @@
 {
-  "15522144": {
-    "date": "2026-08-24",
-    "time": "10:00 AM",
-    "seats_available": 37,
-    "alerted": true,
-    "last_seen": "2026-08-24"
-  },
-  "15519082": {
-    "date": "2026-08-24",
-    "time": "1:50 PM",
-    "seats_available": 23,
-    "alerted": true,
-    "last_seen": "2026-08-24"
-  },
   "15519084": {
     "date": "2026-08-25",
     "time": "1:50 PM",
@@ -41,13 +27,6 @@
     "alerted": true,
     "last_seen": "2026-08-26"
   },
-  "15546021": {
-    "date": "2026-08-25",
-    "time": "10:00 AM",
-    "seats_available": 29,
-    "alerted": true,
-    "last_seen": "2026-08-24"
-  },
   "15546030": {
     "date": "2026-08-25",
     "time": "9:30 PM",
@@ -75,13 +54,6 @@
     "seats_available": 44,
     "alerted": true,
     "last_seen": "2026-08-27"
-  },
-  "15546089": {
-    "date": "2026-08-28",
-    "time": "10:00 AM",
-    "seats_available": 34,
-    "alerted": true,
-    "last_seen": "2026-08-24"
   },
   "15546099": {
     "date": "2026-08-28",
@@ -730,43 +702,43 @@
   "15641940": {
     "date": "2026-09-24",
     "time": "3:45 PM",
-    "seats_available": 84,
+    "seats_available": 81,
     "alerted": true,
-    "last_seen": "2026-09-23"
+    "last_seen": "2026-09-24"
   },
   "15641944": {
     "date": "2026-09-25",
     "time": "2:15 PM",
-    "seats_available": 82,
+    "seats_available": 78,
     "alerted": true,
-    "last_seen": "2026-09-23"
+    "last_seen": "2026-09-24"
   },
   "15641939": {
     "date": "2026-09-26",
     "time": "10:00 AM",
     "seats_available": 58,
     "alerted": true,
-    "last_seen": "2026-09-23"
+    "last_seen": "2026-09-24"
   },
   "15641941": {
     "date": "2026-09-27",
     "time": "10:00 AM",
     "seats_available": 59,
     "alerted": true,
-    "last_seen": "2026-09-23"
+    "last_seen": "2026-09-24"
   },
   "15641943": {
     "date": "2026-09-28",
     "time": "8:45 PM",
     "seats_available": 57,
     "alerted": true,
-    "last_seen": "2026-09-23"
+    "last_seen": "2026-09-24"
   },
   "15641942": {
     "date": "2026-09-30",
     "time": "8:45 PM",
     "seats_available": 64,
     "alerted": true,
-    "last_seen": "2026-09-23"
+    "last_seen": "2026-09-24"
   }
 }
