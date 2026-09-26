@@ -681,77 +681,77 @@
   "15641941": {
     "date": "2026-09-27",
     "time": "10:00 AM",
-    "seats_available": 48,
+    "seats_available": 41,
     "alerted": true,
     "last_seen": "2026-09-26"
   },
   "15641943": {
     "date": "2026-09-28",
     "time": "8:45 PM",
-    "seats_available": 46,
+    "seats_available": 45,
     "alerted": true,
     "last_seen": "2026-09-26"
   },
   "15641942": {
     "date": "2026-09-30",
     "time": "8:45 PM",
-    "seats_available": 59,
+    "seats_available": 57,
     "alerted": true,
     "last_seen": "2026-09-26"
   },
   "15656875": {
     "date": "2026-10-01",
     "time": "10:45 AM",
-    "seats_available": 282,
+    "seats_available": 261,
     "alerted": true,
     "last_seen": "2026-09-26"
   },
   "15656874": {
     "date": "2026-10-01",
     "time": "9:15 PM",
-    "seats_available": 248,
+    "seats_available": 227,
     "alerted": true,
     "last_seen": "2026-09-26"
   },
   "15656865": {
     "date": "2026-10-02",
     "time": "10:45 AM",
-    "seats_available": 277,
+    "seats_available": 243,
     "alerted": true,
     "last_seen": "2026-09-26"
   },
   "15656866": {
     "date": "2026-10-03",
     "time": "10:45 AM",
-    "seats_available": 188,
+    "seats_available": 154,
     "alerted": true,
     "last_seen": "2026-09-26"
   },
   "15656868": {
     "date": "2026-10-04",
     "time": "10:45 AM",
-    "seats_available": 188,
+    "seats_available": 155,
     "alerted": true,
     "last_seen": "2026-09-26"
   },
   "15656870": {
     "date": "2026-10-05",
     "time": "9:15 PM",
-    "seats_available": 275,
+    "seats_available": 243,
     "alerted": true,
     "last_seen": "2026-09-26"
   },
   "15656869": {
     "date": "2026-10-06",
     "time": "9:15 PM",
-    "seats_available": 194,
+    "seats_available": 178,
     "alerted": true,
     "last_seen": "2026-09-26"
   },
   "15656867": {
     "date": "2026-10-07",
     "time": "3:00 PM",
-    "seats_available": 279,
+    "seats_available": 258,
     "alerted": true,
     "last_seen": "2026-09-26"
   }
