@@ -443,14 +443,14 @@
   "15704161": {
     "date": "2026-10-20",
     "time": "11:00 AM",
-    "seats_available": 179,
+    "seats_available": 176,
     "alerted": true,
     "last_seen": "2026-10-15"
   },
   "15704162": {
     "date": "2026-10-21",
     "time": "11:00 AM",
-    "seats_available": 275,
+    "seats_available": 274,
     "alerted": true,
     "last_seen": "2026-10-15"
   }
