@@ -401,7 +401,7 @@
   "15704163": {
     "date": "2026-10-17",
     "time": "11:00 AM",
-    "seats_available": 66,
+    "seats_available": 65,
     "alerted": true,
     "last_seen": "2026-10-16"
   },
@@ -415,7 +415,7 @@
   "15704160": {
     "date": "2026-10-19",
     "time": "11:10 AM",
-    "seats_available": 248,
+    "seats_available": 247,
     "alerted": true,
     "last_seen": "2026-10-16"
   },
@@ -429,7 +429,7 @@
   "15704162": {
     "date": "2026-10-21",
     "time": "11:00 AM",
-    "seats_available": 262,
+    "seats_available": 260,
     "alerted": true,
     "last_seen": "2026-10-16"
   }
