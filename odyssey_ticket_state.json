@@ -373,14 +373,14 @@
   "15711452": {
     "date": "2026-10-27",
     "time": "1:30 PM",
-    "seats_available": 183,
+    "seats_available": 181,
     "alerted": true,
     "last_seen": "2026-10-25"
   },
   "15711437": {
     "date": "2026-10-27",
     "time": "8:45 PM",
-    "seats_available": 134,
+    "seats_available": 129,
     "alerted": true,
     "last_seen": "2026-10-25"
   },
